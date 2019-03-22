@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class lazy="false" name="ITS.Core.RoadRepairing.Domain.RoadRepair, ITS.Core.RoadRepairing" table="rr_roadrepair">
+    <id name="ID" column="id" type="long" unsaved-value="0">
+      <generator class="hilo" />
+    </id>
+    
+    <property column="repair_type" name="RepairType"
+              type="NHibernate.Type.EnumStringType`1[[ITS.Core.RoadRepairing.Domain.Enums.RepairType, ITS.Core.RoadRepairing]], NHibernate"
+              not-null="true" />
+    <property column="work_type" name="WorkType"
+             type="NHibernate.Type.EnumStringType`1[[ITS.Core.RoadRepairing.Domain.Enums.WorkType, ITS.Core.RoadRepairing]], NHibernate"
+             not-null="true" />
+    <property column="work_sort" name="WorkSort" type="string" not-null="false" />
+    <property column="status" name="Status" type="NHibernate.Type.EnumStringType`1[[ITS.Core.RoadRepairing.Domain.Enums.RoadRepairStatus, 
+              ITS.Core.RoadRepairing]], NHibernate" not-null="false" />
+    <property column="repair_start" name="RepairStart" type="DateTime" not-null="false" />
+    <property column="repair_end" name="RepairEnd" type="DateTime" not-null="false" />
+    <property column="repair_start_fact" name="RepairStartFact" type="DateTime" not-null="false" />
+    <property column="repair_end_fact" name="RepairEndFact" type="DateTime" not-null="false" />
+   <property column="note" name="Note" type="string" />
+    <!--<many-to-one column="address_id" name="Address" class="ITS.Core.Domain.Districts.Address, ITS.Core"
+                 not-null="false" cascade="none" />-->
+    <many-to-one column="performer_id" name="Performer" class="ITS.Core.Domain.Organizations.Organization, ITS.Core"
+                 not-null="false" cascade="none" />
+    <many-to-one column="customer_id" name="Customer" class="ITS.Core.Domain.Organizations.Organization, ITS.Core"
+                 not-null="false" cascade="none" />
+    <many-to-one column="owner_id" name="Owner" class="ITS.Core.Domain.Organizations.Organization, ITS.Core"
+                 not-null="false"  cascade="none" />
+   
+    <many-to-one column="feature_object_id" name="FeatureObject" class="ITS.Core.Domain.FeatureObjects.FeatureObject, ITS.Core"
+               not-null="true" cascade="all" />
+
+  
+  </class>
+</hibernate-mapping>

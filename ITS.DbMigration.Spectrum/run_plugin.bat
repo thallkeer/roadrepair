@@ -1,0 +1,2 @@
+Migrator.Console.exe Postgre "Server=localhost;Port=5433;Database=gis;User ID=postgres;Password=1234;Encoding=utf8;CommandTimeout=1000;Timeout=1000" ITS.DbMigration.RoadRepairing.dll -version 201806041943
+ping -n 1 -w 10000 192.168.254.254 >nul

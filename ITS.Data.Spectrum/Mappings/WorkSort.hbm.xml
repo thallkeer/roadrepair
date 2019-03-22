@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class lazy="false" name="ITS.Core.RoadRepairing.Domain.WorkSort, ITS.Core.RoadRepairing" table="rr_work_sort">
+    <id name="ID" column="id"  type = "long" unsaved-value = "0">
+      <generator class="hilo" />
+    </id>
+    <property column="description" name="Description"  type="string" not-null="false" />
+
+    <property column="repair_type" name="RepairType"  type="int"  not-null="false" />
+
+    <property column="work_type" name="WorkType"  type="int"  not-null="false" />
+
+  </class>
+</hibernate-mapping>

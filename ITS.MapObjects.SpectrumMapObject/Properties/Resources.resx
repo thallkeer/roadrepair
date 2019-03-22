@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="itsgisWND_BottomButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itsgisWND_BottomButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditGeometryRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Редактировать геометрию дорожных работ</value>
+  </data>
+  <data name="EditGeometryRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CancelImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CancelImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\AddRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Удалить дорожные работы</value>
+  </data>
+  <data name="RoadRepairAlias" xml:space="preserve">
+    <value>Дорожные работы</value>
+  </data>
+  <data name="AcceptImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AcceptImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PluginToolName" xml:space="preserve">
+    <value>Дорожные работы</value>
+  </data>
+  <data name="itsgisWND_BG_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itsgisWND_BG-11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Редактировать дорожные работы</value>
+  </data>
+  <data name="AddRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Создать дорожные работы</value>
+  </data>
+  <data name="FindRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Сводная ведомость дорожных работ</value>
+  </data>
+  <data name="FindRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FindRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AcceptUserFunctionalName" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="CancelUserFunctionalName" xml:space="preserve">
+    <value>Отменить изменения</value>
+  </data>
+  <data name="DeleteRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeleteRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfoRoadRepairUserFunctionalName" xml:space="preserve">
+    <value>Информация о дорожных работах</value>
+  </data>
+  <data name="InfoRoadRepairImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InfoRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectRoadRepairInProgressGroupName" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="SelectRoadRepairInProgressShortUserFunctionalName" xml:space="preserve">
+    <value>Выполняются</value>
+  </data>
+  <data name="SelectRoadRepairInProgressUserFunctionalName" xml:space="preserve">
+    <value>Отобразить выполняющиеся дорожные работы</value>
+  </data>
+  <data name="SelectRoadRepairMadeGroupName" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="SelectRoadRepairMadeShortUserFunctionalName" xml:space="preserve">
+    <value>Выполнены</value>
+  </data>
+  <data name="SelectRoadRepairMadeUserFunctionalName" xml:space="preserve">
+    <value>Отобразить выполненные дорожные работы</value>
+  </data>
+  <data name="SelectRoadRepairWillBeMadeGroupName" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="SelectRoadRepairWillBeMadeShortUserFunctionalName" xml:space="preserve">
+    <value>Запланированы</value>
+  </data>
+  <data name="SelectRoadRepairWillBeMadeUserFunctionalName" xml:space="preserve">
+    <value>Отобразить запланированные дорожные работы</value>
+  </data>
+  <data name="SelectRoadRepairWillBeMadeSmallImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectSpeedBumpDismantleSmallImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectRoadRepairMadeSmallImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectSpeedBumpRequiredSmallImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectRoadRepairInProgressSmallImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectSpeedBumpSetSmallImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FindRoadRepairGroupName" xml:space="preserve">
+    <value>Ведомости</value>
+  </data>
+  <data name="InfoRoadRepairGroupName" xml:space="preserve">
+    <value>Ведомости</value>
+  </data>
+  <data name="AcceptGroupName" xml:space="preserve">
+    <value>Сохранение изменений</value>
+  </data>
+  <data name="CancelGroupName" xml:space="preserve">
+    <value>Сохранение изменений</value>
+  </data>
+  <data name="DirGroupName" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="RedoGroupName" xml:space="preserve">
+    <value>История изменений</value>
+  </data>
+  <data name="UndoGroupName" xml:space="preserve">
+    <value>История изменений</value>
+  </data>
+  <data name="WorkSortCatalogUserFunctionalName" xml:space="preserve">
+    <value>Справочник работ</value>
+  </data>
+  <data name="WorkSortCatalogGroupName" xml:space="preserve">
+    <value>Ведомости</value>
+  </data>
+  <data name="FindRoadRepairImageSource1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FindRoadRepairImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WorkSortCatalogImageSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkSortCatalogImageSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
